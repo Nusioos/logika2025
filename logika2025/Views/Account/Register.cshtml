@@ -1,0 +1,140 @@
+﻿@model logika2025.Models.RegisterViewModel
+
+<form method="post" asp-action="Register" class="register-form">
+    <div class="form-box">
+        <div class="form-group">
+            <h2 class="text-center mb-4 text-light">Rejestracja</h2>
+            <label for="Email">Email:</label>
+            <input type="email" asp-for="Email" class="form-control custom-input" required />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="UserName">Nazwa użytkownika:</label>
+            <input type="text" asp-for="UserName" class="form-control custom-input" required />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="Password">Hasło:</label>
+            <input type="password" asp-for="Password" class="form-control custom-input" required />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="ConfirmPassword">Potwierdź hasło:</label>
+            <input type="password" asp-for="ConfirmPassword" class="form-control custom-input" required />
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary">Zarejestruj się</button>
+        </div>
+
+        <div class="form-group text-center">
+            <a asp-controller="Account" asp-action="Login" class="btn btn-secondary">Masz konto? Zaloguj się</a>
+        </div>
+    </div>
+</form>
+
+
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        background-color: #2c2f33;
+    }
+
+    .register-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        max-width: 500px;
+        margin: auto;
+        padding: 30px;
+    }
+
+   .form-box {
+    background-color: #23272a;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 120%; 
+    max-width: 500px;
+}
+
+
+    h2.text-center {
+        color: #ffffff; 
+    }
+
+    .custom-input {
+        background-color: #40444b; 
+        color: #ffffff;
+        border: none;
+        height: 45px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .custom-input:focus {
+        background-color: #40444b;
+        color: #ffffff;
+        border: 1px solid #7289da;
+        box-shadow: 0 0 6px #7289da; 
+    }
+
+    .btn-primary {
+        background-color: #7289da; 
+        border: none;
+        color: #fff;
+        padding: 12px 25px;
+        font-size: 1rem;
+        border-radius: 5px;
+        width: auto; 
+        margin-top: 15px;
+    }
+
+    .btn-primary:hover {
+        background-color: #5b6eae; 
+    }
+
+    .btn-secondary {
+        background-color: #23272a; 
+        color: #ffffff;
+        padding: 12px 25px;
+        font-size: 1rem;
+        border-radius: 5px;
+        width: auto; 
+        margin-top: 10px;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5b6eae;
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-group label {
+        color: #e0e0e0;
+        font-size: 1rem;
+    }
+
+    .form-group span.text-danger {
+        font-size: 0.9rem;
+        color: #f44336;
+    }
+
+ 
+    .text-center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "logika2025", "logika2025\logika2025.csproj", "{69F25CAD-EDD4-4779-B0A3-2D582C36C565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69F25CAD-EDD4-4779-B0A3-2D582C36C565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F25CAD-EDD4-4779-B0A3-2D582C36C565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F25CAD-EDD4-4779-B0A3-2D582C36C565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F25CAD-EDD4-4779-B0A3-2D582C36C565}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FBFD1F1-21B2-47B6-B603-7394802AECA6}
+	EndGlobalSection
+EndGlobal

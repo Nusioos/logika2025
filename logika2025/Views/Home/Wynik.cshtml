@@ -1,0 +1,16 @@
+﻿@model int
+
+<div class="text-center mt-5">
+    <h1>Gratulacje!</h1>
+    <h2>Twój wynik to:</h2>
+    <h1>@Model / 20</h1>
+
+    @if (ViewBag.RemainingSeconds != null)
+    {
+        var remainingTime = TimeSpan.FromSeconds(ViewBag.RemainingSeconds);
+        <p>Czas pozostały: @remainingTime</p>
+    }
+
+    <a href="@Url.Action("Test", "Home")" class="btn btn-success mt-4">Spróbuj jeszcze raz</a>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-success mt-4">Home</a>
+</div>

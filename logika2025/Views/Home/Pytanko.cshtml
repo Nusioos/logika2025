@@ -1,0 +1,96 @@
+﻿@model logika2025.Models.Pytania
+
+<div class="text-center">
+    <h1>@Model.Tresc</h1>
+
+    @if (!string.IsNullOrEmpty(Model.Obraz))
+    {
+        <img src="~/Images/@Model.Obraz" alt="Obraz pytania" style="width:100%; height:auto;" />
+    }
+</div>
+<div class="timer-container">
+    <span id="timer"></span>
+</div>
+
+<style>
+    .timer-container {
+        position: fixed;
+        top: 70px;
+        right: 20px;
+        font-size: 18px;
+        color: white;
+        z-index: 10000;
+        padding: 5px 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+    }
+
+</style>
+<form asp-action="SprawdzOdpowiedz" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    @if (Model.TypOdpowiedzi == "wybor")
+    {
+        <label>Zaznacz odpowiedź (możesz zaznaczyć kilka):</label>
+        <br />
+
+        @if (!string.IsNullOrEmpty(Model.OdpowiedzA))
+        {
+            <input type="checkbox" name="odpowiedz[]" value="A" id="A" />
+            <label for="A">@Model.OdpowiedzA</label>
+
+            <br />
+        }
+        @if (!string.IsNullOrEmpty(Model.OdpowiedzB))
+        {
+            <input type="checkbox" name="odpowiedz[]" value="B" id="B" />
+            <label for="B">@Model.OdpowiedzB</label>
+
+            <br />
+        }
+        @if (!string.IsNullOrEmpty(Model.OdpowiedzC))
+        {
+            <input type="checkbox" name="odpowiedz[]" value="C" id="C" />
+            <label for="C">@Model.OdpowiedzC</label>
+
+            <br />
+        }
+        @if (!string.IsNullOrEmpty(Model.OdpowiedzD))
+        {
+            <input type="checkbox" name="odpowiedz[]" value="D" id="D" />
+            <label for="D">@Model.OdpowiedzD</label>
+
+            <br />
+        }
+    }
+    else if (Model.TypOdpowiedzi == "tekst")
+    {
+        <label>Podaj odpowiedź:</label>
+        <br />
+        <input type="text" name="odpowiedz" class="form-control" required />
+    }
+
+    <script>
+        let remaining = @ViewBag.RemainingSeconds;
+
+        function updateTimer() {
+            const minutes = Math.floor(remaining / 60);
+            const seconds = remaining % 60;
+            document.getElementById('timer').textContent =
+                `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+            if (remaining <= 0) {
+                clearInterval(timerInterval);
+                alert("Czas minął! Test zakończony.");
+             window.location.href = "/Test/Pytanko";
+            }
+
+            remaining--;
+        }
+
+        const timerInterval = setInterval(updateTimer, 1000);
+        updateTimer();
+    </script>
+
+    <button class="btn btn-primary mt-4" type="submit">OK</button>
+</form>

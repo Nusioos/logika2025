@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Zadania";
+}
+@if (Context.Session.GetString("UserName") != null)
+{
+    <p>Witaj, @Context.Session.GetString("UserName")!</p>
+    <a href="/Account/Logout">Wyloguj się</a>
+}
+
+
+<style>
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+        .hero-container img {
+            max-width: none; /* opcjonalnie, jeśli nie chcesz ograniczać szerokości */
+            width: 300px; /* lub inna wartość */
+            height: 400px; /* zwiększa długość obrazka */
+            height: auto;
+            margin-bottom: 2rem;
+            box-shadow: none;
+            border-radius: 0;
+            background-color: transparent;
+        }
+
+        .hero-container .btn-secondary {
+            background-color: #99aab5;
+            border: none;
+            color: #2c2f33;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-decoration: none;
+        }
+
+            .hero-container .btn-secondary:hover {
+                background-color: #7f8c95;
+                transform: scale(1.05);
+            }
+</style>
+
+<div class="hero-container">
+    <img src="~/Images/logika2025logo.png" alt="Logika2025 logo" />
+    <a asp-controller="Home"  class="btn btn-secondary">Kurs</a>
+</div>

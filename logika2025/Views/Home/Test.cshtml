@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Test - Strona";
+}
+
+<style>
+    /* Kontener dla całej strony */
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 80px; /* Przestrzeń nad główną treścią strony */
+    }
+
+    /* Pasek boczny - zajmuje całą prawą stronę */
+    .sidebar {
+        position: fixed; /* Stała pozycja, zawsze widoczny */
+        top: 56px; /* Odstęp od góry, aby nie nachodził na pasek nawigacji */
+        right: 0; /* Od prawej krawędzi */
+        width: 300px; /* Szerokość paska bocznego */
+        height: calc(100vh - 80px); /* Wysokość 100% widoku minus przestrzeń na nagłówek */
+        padding: 2rem;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000; /* Upewnia się, że pasek jest nad treścią */
+        color: #fff; /* Kolor tekstu biały */
+        overflow: hidden; /* Zapobiega wychodzeniu treści poza pasek boczny */
+    }
+
+        /* Dodanie efektu wznoszącego tło */
+        .sidebar::before {
+            content: "";
+            position: absolute;
+            top: -20px; /* Podnosimy tło o 20px */
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #2f3136; /* Tło podobne do paska bocznego */
+            z-index: -1; /* Ustawiamy tło za inną zawartością */
+        }
+
+        .sidebar h3 {
+            margin-bottom: 1rem;
+        }
+
+        .sidebar p {
+            margin-bottom: 1.5rem;
+        }
+
+        .sidebar a {
+            display: inline-block;
+            background-color: #7289da; /* Kolor przycisku podobny do Discorda */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+            .sidebar a:hover {
+                background-color: #5b6eae; /* Ciemniejszy odcień przycisku po najechaniu */
+            }
+
+    /* Główna treść strony */
+    .main-content {
+        flex: 1;
+        padding: 2rem;
+        margin-right: 300px; /* Pozostaje miejsce na pasek boczny */
+        margin-top: 20px; /* Dodaj margines, aby oddzielić od paska nawigacji */
+    }
+
+    /* Sekcja Test - tło o odcieniu popielatym, ale jaśniejszym niż pasek boczny */
+    section#Test {
+        padding: 3rem 1rem;
+        background-color: #3a3b3d; /* Jaśniejszy odcień szarości niż pasek boczny */
+        color: white; /* Kolor tekstu biały */
+        border-radius: 8px; /* Zaokrąglone rogi */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Cień wokół sekcji */
+        margin-top: 100px; /* Dodaj margines, aby przesunąć sekcję Test w dół */
+
+    }
+
+    .start-button-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .start-button {
+        background-color: #5865F2; /* Niebieski jak Discord */
+        color: white;
+        padding: 12px 36px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+        .start-button:hover {
+            background-color: #4752c4;
+            transform: scale(1.05); /* Lekki efekt powiększenia */
+        }
+
+</style>
+
+
+
+
+<!-- Główna treść strony Test -->
+<div class="main-content">
+    <section id="Test">
+        <div class="container">
+            <h2>Witaj w sekcji Testu!</h2>
+            <p>Ta sekcja zawiera informacje o teście, który możesz rozpocząć, klikając przycisk poniżej.</p>
+        </div>
+    </section>
+</div>
+
+<!-- Stały pasek boczny zajmujący całą prawą stronę -->
+<div class="sidebar">
+    <h3>Informacje o teście:</h3>
+    <p>Ten test sprawdza Twoje umiejętności logicznego myślenia, zawiera pytania z różnych kategorii.Jest bardzo podobny do egzaminu.</p>
+    <a asp-controller="Home" asp-action="OpisTestu">Zobacz więcej</a>
+</div>
+<div class="start-button-wrapper">
+    <a asp-controller="Home" asp-action="Testmain"  class="btn btn-secondary">Start</a>
+</div>

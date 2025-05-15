@@ -1,0 +1,81 @@
+﻿@model List<logika2025.Models.Testmain>
+
+@{
+    ViewData["Title"] = "Wyniki Graczy";
+
+   
+    var najlepszeWyniki = Model
+        .GroupBy(x => x.UserName)
+        .Select(g => g.OrderByDescending(x => x.Odp) 
+            .ThenBy(x => x.CzasTrwania)             
+            .First())
+        .OrderByDescending(x => x.Odp)            
+        .ThenBy(x => x.CzasTrwania)                
+        .ToList();
+}
+
+<style>
+    .leaderboard-container {
+        background-color: #2f3136;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        color: #fff;
+    }
+
+    .custom-discord-table {
+        background-color: #36393f;
+        color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+        .custom-discord-table th {
+            background-color: #7289da;
+            color: white;
+            border: none;
+            padding: 1rem;
+            font-weight: bold;
+        }
+
+        .custom-discord-table td {
+            background-color: #2f3136;
+            color: #ddd;
+            border-top: 1px solid #444;
+            padding: 0.75rem;
+        }
+
+        .custom-discord-table tr:hover td {
+            background-color: #40444b;
+            transition: background-color 0.2s ease-in-out;
+        }
+</style>
+
+<div class="text-center leaderboard-container">
+    <h1 class="display-4">Wyniki Graczy</h1>
+
+    <br />
+    <table class="table custom-discord-table">
+        <thead>
+            <tr>
+                <th>Gracz</th>
+                <th>Wynik (na 20)</th>
+                <th>Czas:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < najlepszeWyniki.Count; i++)
+            {
+                var wynik = najlepszeWyniki[i];
+                string medal = i == 0 ? "🥇" : i == 1 ? "🥈" : i == 2 ? "🥉" : "";
+
+                <tr>
+                    <td>@medal @wynik.UserName</td>
+                    <td>@wynik.Odp</td>
+                    <td>@string.Format("{0:hh\\:mm\\:ss\\.fff}", wynik.CzasTrwania)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

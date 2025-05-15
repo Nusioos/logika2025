@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    header, nav {
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: #2f3136;
+    }
+
+    body {
+        background-color: #2f3136;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #fff; 
+    }
+
+    .hero-container {
+        margin-top: 0; 
+    }
+
+    
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        text-align: center;
+        padding: 4rem 1rem;
+        background: linear-gradient(to right, #7289da, #2f3136);
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+        margin-top: 50px;
+    }
+
+   
+        .hero-container img {
+            width: 300px;
+            height: auto;
+            margin-bottom: 2rem;
+            border-radius: 12px; 
+            transition: transform 0.3s ease-in-out;
+        }
+
+           
+            .hero-container img:hover {
+                transform: scale(1.05);
+            }
+
+    
+        .hero-container .btn-secondary {
+            background-color: #7289da;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+        }
+
+           
+            .hero-container .btn-secondary:hover {
+                background-color: #5b6eae;
+                transform: scale(1.05);
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+
+    
+    section {
+        padding: 2rem;
+        background-color: #3a3b3d; 
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+       
+        section h2 {
+            color: #fff;
+        }
+
+        section p {
+            color: #b9bbbe; 
+        }
+</style>
+
+<div class="hero-container">
+    <img src="~/Images/logika2025logo.png" alt="Logika2025 logo" />
+    <h1>Witaj na stronie Logika2025!</h1>
+    <p>Test przetestuje twoje umiejętności z Logiki i Teorii mnogości!</p>
+    <a asp-controller="Home" asp-action="Test" class="btn btn-secondary">Zacznij test</a>
+</div>
+
+<section>
+    <h2>O Teście:</h2>
+    <p>Test Logika2025 pomogą Ci rozwijać umiejętności rozwiązywania problemów i myślenia analitycznego.Test bazowany jest na końcowym egzaminie z logiki i teorii mnogośći.</p>
+</section>

@@ -1,0 +1,906 @@
+2025-05-15 00:11:43.678 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-15 00:11:44.430 +02:00 [DBG] Entity Framework Core 7.0.20 initialized 'TestmainDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.20' with options: None
+2025-05-15 00:11:44.437 +02:00 [DBG] Creating DbConnection.
+2025-05-15 00:11:44.478 +02:00 [DBG] Created DbConnection. (38ms).
+2025-05-15 00:11:44.484 +02:00 [DBG] Migrating using database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.490 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.772 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.780 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-15 00:11:44.786 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2025-05-15 00:11:44.788 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (11ms).
+2025-05-15 00:11:44.795 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:11:44.823 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:11:44.826 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.836 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (7ms).
+2025-05-15 00:11:44.840 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-15 00:11:44.840 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:11:44.840 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:11:44.840 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.841 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.842 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:11:44.859 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:11:44.860 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.860 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:11:44.861 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.861 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.861 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-15 00:11:44.861 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-15 00:11:44.861 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-15 00:11:44.861 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:11:44.862 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:11:44.862 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.862 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:11:44.862 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-15 00:11:44.862 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:11:44.862 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:11:44.862 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.862 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.862 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:11:44.862 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:11:44.862 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.862 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:11:44.881 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-15 00:11:44.881 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:11:44.881 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:11:44.881 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.881 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.882 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-15 00:11:44.886 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-15 00:11:44.889 +02:00 [DBG] Closing data reader to 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.892 +02:00 [DBG] A data reader for 'TestmainDb' on server 'localhost,1433' is being disposed after spending 3ms reading results.
+2025-05-15 00:11:44.892 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:44.892 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:11:44.908 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-15 00:11:44.950 +02:00 [DBG] Compiling query expression: 
+'DbSet<Pytania>()
+    .Any()'
+2025-05-15 00:11:45.128 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Pytanie AS p)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    logika2025.Models.TestmainDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-05-15 00:11:45.159 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-15 00:11:45.159 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:11:45.159 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:11:45.159 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:45.159 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:45.159 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Pytanie] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-15 00:11:45.165 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Pytanie] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-15 00:11:45.167 +02:00 [DBG] Closing data reader to 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:45.167 +02:00 [DBG] A data reader for 'TestmainDb' on server 'localhost,1433' is being disposed after spending 1ms reading results.
+2025-05-15 00:11:45.167 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:45.167 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:11:45.168 +02:00 [DBG] 'TestmainDbContext' disposed.
+2025-05-15 00:11:45.170 +02:00 [DBG] Disposing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:11:45.172 +02:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/ForgotPassword.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/ResetPassword.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Error404.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/OpisTestu.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Pytanko.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Tabela.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Test.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Testmain.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Wynik.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Zadania_r.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_Layout.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-05-15 00:11:45.212 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-05-15 00:11:45.223 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-15 00:11:45.256 +02:00 [DBG] Hosting starting
+2025-05-15 00:11:45.275 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-15 00:11:45.277 +02:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-3742381f-beef-4107-b413-4ee73009bb6a.xml'.
+2025-05-15 00:11:45.280 +02:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-b0f5aae8-e779-48f7-853c-d83d15ab91b4.xml'.
+2025-05-15 00:11:45.285 +02:00 [DBG] Found key {3742381f-beef-4107-b413-4ee73009bb6a}.
+2025-05-15 00:11:45.288 +02:00 [DBG] Found key {b0f5aae8-e779-48f7-853c-d83d15ab91b4}.
+2025-05-15 00:11:45.294 +02:00 [DBG] Considering key {3742381f-beef-4107-b413-4ee73009bb6a} with expiration date 2025-06-23 19:18:58Z as default key.
+2025-05-15 00:11:45.295 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-15 00:11:45.295 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-15 00:11:45.296 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-15 00:11:45.296 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-15 00:11:45.297 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-15 00:11:45.299 +02:00 [DBG] Using key {3742381f-beef-4107-b413-4ee73009bb6a} as the default key.
+2025-05-15 00:11:45.299 +02:00 [DBG] Key ring with default key {3742381f-beef-4107-b413-4ee73009bb6a} was loaded during application startup.
+2025-05-15 00:11:45.392 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24A6B538250A1988F95E539551797B85416F05B6)
+2025-05-15 00:11:45.418 +02:00 [INF] Now listening on: https://localhost:7125
+2025-05-15 00:11:45.418 +02:00 [INF] Now listening on: http://localhost:5018
+2025-05-15 00:11:45.418 +02:00 [DBG] Loaded hosting startup assembly logika2025
+2025-05-15 00:11:45.418 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-15 00:11:45.418 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-15 00:11:45.418 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-15 00:11:45.418 +02:00 [INF] Hosting environment: Development
+2025-05-15 00:11:45.418 +02:00 [INF] Content root path: C:\Users\Admin\source\repos\logika2025\logika2025\
+2025-05-15 00:11:45.418 +02:00 [DBG] Hosting started
+2025-05-15 00:11:45.543 +02:00 [DBG] Connection id "0HNCJ6H88O37F" accepted.
+2025-05-15 00:11:45.544 +02:00 [DBG] Connection id "0HNCJ6H88O37F" started.
+2025-05-15 00:11:45.546 +02:00 [DBG] Connection id "0HNCJ6H88O37G" accepted.
+2025-05-15 00:11:45.547 +02:00 [DBG] Connection id "0HNCJ6H88O37G" started.
+2025-05-15 00:11:45.583 +02:00 [DBG] Connection id "0HNCJ6H88O37G" received FIN.
+2025-05-15 00:11:45.583 +02:00 [DBG] Connection id "0HNCJ6H88O37F" received FIN.
+2025-05-15 00:11:45.607 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-15 00:11:45.607 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-15 00:11:45.631 +02:00 [DBG] Connection id "0HNCJ6H88O37F" stopped.
+2025-05-15 00:11:45.631 +02:00 [DBG] Connection id "0HNCJ6H88O37G" stopped.
+2025-05-15 00:11:45.633 +02:00 [DBG] Connection id "0HNCJ6H88O37G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:11:45.633 +02:00 [DBG] Connection id "0HNCJ6H88O37F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:11:46.301 +02:00 [DBG] Connection id "0HNCJ6H88O37H" accepted.
+2025-05-15 00:11:46.301 +02:00 [DBG] Connection id "0HNCJ6H88O37H" started.
+2025-05-15 00:11:46.334 +02:00 [DBG] Connection 0HNCJ6H88O37H established using the following protocol: "Tls13"
+2025-05-15 00:11:46.415 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2025-05-15 00:11:46.462 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-15 00:11:46.467 +02:00 [DBG] The request path / does not match a supported file type
+2025-05-15 00:11:46.492 +02:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-05-15 00:11:46.495 +02:00 [DBG] Endpoint 'AccountController.Login (logika2025)' with route pattern '{controller=Account}/{action=Login}/{id?}' is valid for the request path '/'
+2025-05-15 00:11:46.496 +02:00 [DBG] Request matched endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:11:46.504 +02:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-05-15 00:11:46.506 +02:00 [INF] Executing endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:11:46.520 +02:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (logika2025).
+2025-05-15 00:11:46.521 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-15 00:11:46.521 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-15 00:11:46.521 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-05-15 00:11:46.521 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-15 00:11:46.521 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-15 00:11:46.523 +02:00 [DBG] Executing controller factory for controller AccountController (logika2025)
+2025-05-15 00:11:46.525 +02:00 [DBG] Executed controller factory for controller AccountController (logika2025)
+2025-05-15 00:11:46.528 +02:00 [DBG] View lookup cache miss for view 'Login' in controller 'Account'.
+2025-05-15 00:11:46.533 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-15 00:11:46.536 +02:00 [DBG] The view path '/Views/Account/Login.cshtml' was found in 4.6768ms.
+2025-05-15 00:11:46.569 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:11:46.575 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in  and 
+2025-05-15 00:11:46.576 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /
+2025-05-15 00:11:46.580 +02:00 [DBG] A new antiforgery cookie token was created.
+2025-05-15 00:11:46.596 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:11:46.597 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Register and 
+2025-05-15 00:11:46.598 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Register
+2025-05-15 00:11:46.598 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:11:46.598 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/ForgotPassword and 
+2025-05-15 00:11:46.598 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/ForgotPassword
+2025-05-15 00:11:46.599 +02:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Account'.
+2025-05-15 00:11:46.614 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:11:46.614 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-05-15 00:11:46.614 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Index
+2025-05-15 00:11:46.614 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:11:46.614 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-05-15 00:11:46.614 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-05-15 00:11:46.693 +02:00 [INF] Executed ViewResult - view Login executed in 165.4035ms.
+2025-05-15 00:11:46.697 +02:00 [INF] Executed action AccountController.Login (logika2025) in 175.9285ms
+2025-05-15 00:11:46.698 +02:00 [INF] Executed endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:11:46.722 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-15 00:11:46.742 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-15 00:11:46.744 +02:00 [DBG] Connection id "0HNCJ6H88O37H" received FIN.
+2025-05-15 00:11:46.744 +02:00 [DBG] Connection id "0HNCJ6H88O37H" is closed. The last processed stream ID was 1.
+2025-05-15 00:11:46.745 +02:00 [DBG] Connection id "0HNCJ6H88O37H" sending FIN because: "The client closed the connection."
+2025-05-15 00:11:46.748 +02:00 [DBG] Connection id "0HNCJ6H88O37I" accepted.
+2025-05-15 00:11:46.748 +02:00 [DBG] Connection id "0HNCJ6H88O37I" started.
+2025-05-15 00:11:46.754 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 344.2611ms
+2025-05-15 00:11:46.755 +02:00 [DBG] Connection 0HNCJ6H88O37I established using the following protocol: "Tls13"
+2025-05-15 00:11:46.756 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2025-05-15 00:11:46.766 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 9.4455ms
+2025-05-15 00:11:46.766 +02:00 [DBG] Connection id "0HNCJ6H88O37H" stopped.
+2025-05-15 00:11:47.022 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2025-05-15 00:11:47.068 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.5635ms
+2025-05-15 00:11:47.089 +02:00 [DBG] Connection id "0HNCJ6H88O37J" accepted.
+2025-05-15 00:11:47.089 +02:00 [DBG] Connection id "0HNCJ6H88O37J" started.
+2025-05-15 00:11:47.095 +02:00 [DBG] Connection 0HNCJ6H88O37J established using the following protocol: "Tls13"
+2025-05-15 00:11:47.103 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2025-05-15 00:11:47.121 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Admin\source\repos\logika2025\logika2025\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2025-05-15 00:11:47.122 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 18.3896ms
+2025-05-15 00:11:47.122 +02:00 [DBG] Connection id "0HNCJ6H88O37J" disconnecting.
+2025-05-15 00:11:47.122 +02:00 [DBG] Connection id "0HNCJ6H88O37J" stopped.
+2025-05-15 00:11:47.122 +02:00 [DBG] Connection id "0HNCJ6H88O37J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:11:48.307 +02:00 [DBG] Connection id "0HNCJ6H88O37I" received FIN.
+2025-05-15 00:11:48.307 +02:00 [DBG] Connection id "0HNCJ6H88O37I" is closed. The last processed stream ID was 3.
+2025-05-15 00:11:48.307 +02:00 [DBG] Connection id "0HNCJ6H88O37I" sending FIN because: "The client closed the connection."
+2025-05-15 00:11:48.307 +02:00 [DBG] Connection id "0HNCJ6H88O37I" stopped.
+2025-05-15 00:14:16.726 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-15 00:14:17.166 +02:00 [DBG] Entity Framework Core 7.0.20 initialized 'TestmainDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.20' with options: None
+2025-05-15 00:14:17.170 +02:00 [DBG] Creating DbConnection.
+2025-05-15 00:14:17.190 +02:00 [DBG] Created DbConnection. (17ms).
+2025-05-15 00:14:17.193 +02:00 [DBG] Migrating using database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.196 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.315 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.320 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-15 00:14:17.325 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-05-15 00:14:17.326 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-05-15 00:14:17.330 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:14:17.345 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:14:17.346 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.350 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (1ms).
+2025-05-15 00:14:17.353 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-15 00:14:17.353 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:14:17.353 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:14:17.353 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.353 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.353 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:14:17.363 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:14:17.363 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.364 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:14:17.364 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.364 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.364 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-15 00:14:17.364 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-15 00:14:17.364 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-15 00:14:17.364 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:14:17.365 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:14:17.365 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.365 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:14:17.365 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-15 00:14:17.365 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:14:17.365 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:14:17.365 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.365 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.365 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:14:17.366 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:14:17.366 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.366 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:14:17.376 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-15 00:14:17.376 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:14:17.376 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:14:17.376 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.376 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.376 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-15 00:14:17.378 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-15 00:14:17.379 +02:00 [DBG] Closing data reader to 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.379 +02:00 [DBG] A data reader for 'TestmainDb' on server 'localhost,1433' is being disposed after spending 0ms reading results.
+2025-05-15 00:14:17.379 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.379 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:14:17.388 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-15 00:14:17.413 +02:00 [DBG] Compiling query expression: 
+'DbSet<Pytania>()
+    .Any()'
+2025-05-15 00:14:17.504 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Pytanie AS p)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    logika2025.Models.TestmainDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-05-15 00:14:17.519 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-15 00:14:17.519 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:14:17.519 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:14:17.519 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.519 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.519 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Pytanie] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-15 00:14:17.521 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Pytanie] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-15 00:14:17.521 +02:00 [DBG] Closing data reader to 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.521 +02:00 [DBG] A data reader for 'TestmainDb' on server 'localhost,1433' is being disposed after spending 0ms reading results.
+2025-05-15 00:14:17.521 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.521 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:14:17.522 +02:00 [DBG] 'TestmainDbContext' disposed.
+2025-05-15 00:14:17.523 +02:00 [DBG] Disposing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:14:17.523 +02:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-15 00:14:17.537 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-15 00:14:17.556 +02:00 [DBG] Hosting starting
+2025-05-15 00:14:17.561 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-15 00:14:17.562 +02:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-3742381f-beef-4107-b413-4ee73009bb6a.xml'.
+2025-05-15 00:14:17.563 +02:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-b0f5aae8-e779-48f7-853c-d83d15ab91b4.xml'.
+2025-05-15 00:14:17.566 +02:00 [DBG] Found key {3742381f-beef-4107-b413-4ee73009bb6a}.
+2025-05-15 00:14:17.567 +02:00 [DBG] Found key {b0f5aae8-e779-48f7-853c-d83d15ab91b4}.
+2025-05-15 00:14:17.571 +02:00 [DBG] Considering key {3742381f-beef-4107-b413-4ee73009bb6a} with expiration date 2025-06-23 19:18:58Z as default key.
+2025-05-15 00:14:17.572 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-15 00:14:17.572 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-15 00:14:17.573 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-15 00:14:17.573 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-15 00:14:17.574 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-15 00:14:17.576 +02:00 [DBG] Using key {3742381f-beef-4107-b413-4ee73009bb6a} as the default key.
+2025-05-15 00:14:17.576 +02:00 [DBG] Key ring with default key {3742381f-beef-4107-b413-4ee73009bb6a} was loaded during application startup.
+2025-05-15 00:14:17.603 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24A6B538250A1988F95E539551797B85416F05B6)
+2025-05-15 00:14:17.620 +02:00 [INF] Now listening on: https://localhost:7125
+2025-05-15 00:14:17.620 +02:00 [INF] Now listening on: http://localhost:5018
+2025-05-15 00:14:17.620 +02:00 [DBG] Loaded hosting startup assembly logika2025
+2025-05-15 00:14:17.620 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-15 00:14:17.620 +02:00 [INF] Hosting environment: Development
+2025-05-15 00:14:17.620 +02:00 [INF] Content root path: C:\Users\Admin\source\repos\logika2025\logika2025\
+2025-05-15 00:14:17.620 +02:00 [DBG] Hosting started
+2025-05-15 00:14:36.421 +02:00 [INF] Application is shutting down...
+2025-05-15 00:14:36.422 +02:00 [DBG] Hosting stopping
+2025-05-15 00:14:36.436 +02:00 [DBG] Hosting stopped
+2025-05-15 00:21:03.046 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-15 00:21:03.993 +02:00 [DBG] Entity Framework Core 7.0.20 initialized 'TestmainDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.20' with options: None
+2025-05-15 00:21:04.000 +02:00 [DBG] Creating DbConnection.
+2025-05-15 00:21:04.039 +02:00 [DBG] Created DbConnection. (35ms).
+2025-05-15 00:21:04.046 +02:00 [DBG] Migrating using database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.053 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.385 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.394 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-15 00:21:04.401 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2025-05-15 00:21:04.404 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (13ms).
+2025-05-15 00:21:04.411 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:21:04.443 +02:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:21:04.446 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.460 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (9ms).
+2025-05-15 00:21:04.465 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-15 00:21:04.465 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:21:04.465 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:21:04.465 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.466 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.467 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:21:04.489 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:21:04.489 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.490 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:21:04.490 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.490 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.490 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-15 00:21:04.490 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-15 00:21:04.490 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-15 00:21:04.490 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:21:04.492 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:21:04.492 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.492 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:21:04.492 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-15 00:21:04.492 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:21:04.492 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:21:04.492 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.492 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.492 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:21:04.492 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:21:04.492 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.492 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:21:04.512 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-15 00:21:04.512 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:21:04.512 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:21:04.512 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.512 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.513 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-15 00:21:04.517 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-15 00:21:04.522 +02:00 [DBG] Closing data reader to 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.524 +02:00 [DBG] A data reader for 'TestmainDb' on server 'localhost,1433' is being disposed after spending 5ms reading results.
+2025-05-15 00:21:04.524 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.524 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:21:04.581 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-15 00:21:04.623 +02:00 [DBG] Compiling query expression: 
+'DbSet<Pytania>()
+    .Any()'
+2025-05-15 00:21:04.820 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Pytanie AS p)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    logika2025.Models.TestmainDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-05-15 00:21:04.852 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-15 00:21:04.852 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:21:04.853 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:21:04.853 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.853 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.853 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Pytanie] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-15 00:21:04.854 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Pytanie] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-15 00:21:04.856 +02:00 [DBG] Closing data reader to 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.856 +02:00 [DBG] A data reader for 'TestmainDb' on server 'localhost,1433' is being disposed after spending 1ms reading results.
+2025-05-15 00:21:04.856 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.856 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:21:04.858 +02:00 [DBG] 'TestmainDbContext' disposed.
+2025-05-15 00:21:04.860 +02:00 [DBG] Disposing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:21:04.861 +02:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/ForgotPassword.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/ResetPassword.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Error404.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/OpisTestu.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Pytanko.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Tabela.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Test.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Testmain.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Wynik.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Zadania_r.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_Layout.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-05-15 00:21:04.902 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-05-15 00:21:04.914 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-15 00:21:04.949 +02:00 [DBG] Hosting starting
+2025-05-15 00:21:04.970 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-15 00:21:04.972 +02:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-3742381f-beef-4107-b413-4ee73009bb6a.xml'.
+2025-05-15 00:21:04.975 +02:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-b0f5aae8-e779-48f7-853c-d83d15ab91b4.xml'.
+2025-05-15 00:21:04.982 +02:00 [DBG] Found key {3742381f-beef-4107-b413-4ee73009bb6a}.
+2025-05-15 00:21:04.986 +02:00 [DBG] Found key {b0f5aae8-e779-48f7-853c-d83d15ab91b4}.
+2025-05-15 00:21:04.991 +02:00 [DBG] Considering key {3742381f-beef-4107-b413-4ee73009bb6a} with expiration date 2025-06-23 19:18:58Z as default key.
+2025-05-15 00:21:04.992 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-15 00:21:04.992 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-15 00:21:04.993 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-15 00:21:04.994 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-15 00:21:04.996 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-15 00:21:04.998 +02:00 [DBG] Using key {3742381f-beef-4107-b413-4ee73009bb6a} as the default key.
+2025-05-15 00:21:04.998 +02:00 [DBG] Key ring with default key {3742381f-beef-4107-b413-4ee73009bb6a} was loaded during application startup.
+2025-05-15 00:21:05.097 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24A6B538250A1988F95E539551797B85416F05B6)
+2025-05-15 00:21:05.122 +02:00 [INF] Now listening on: https://localhost:7125
+2025-05-15 00:21:05.122 +02:00 [INF] Now listening on: http://localhost:5018
+2025-05-15 00:21:05.122 +02:00 [DBG] Loaded hosting startup assembly logika2025
+2025-05-15 00:21:05.122 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-05-15 00:21:05.122 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-05-15 00:21:05.122 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-15 00:21:05.122 +02:00 [INF] Hosting environment: Development
+2025-05-15 00:21:05.122 +02:00 [INF] Content root path: C:\Users\Admin\source\repos\logika2025\logika2025\
+2025-05-15 00:21:05.122 +02:00 [DBG] Hosting started
+2025-05-15 00:21:05.426 +02:00 [DBG] Connection id "0HNCJ6MF46N9S" accepted.
+2025-05-15 00:21:05.427 +02:00 [DBG] Connection id "0HNCJ6MF46N9T" accepted.
+2025-05-15 00:21:05.428 +02:00 [DBG] Connection id "0HNCJ6MF46N9S" started.
+2025-05-15 00:21:05.428 +02:00 [DBG] Connection id "0HNCJ6MF46N9T" started.
+2025-05-15 00:21:06.492 +02:00 [DBG] Connection id "0HNCJ6MF46N9U" accepted.
+2025-05-15 00:21:06.493 +02:00 [DBG] Connection id "0HNCJ6MF46N9U" started.
+2025-05-15 00:21:06.555 +02:00 [DBG] Connection 0HNCJ6MF46N9U established using the following protocol: "Tls13"
+2025-05-15 00:21:06.648 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2025-05-15 00:21:06.692 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-15 00:21:06.699 +02:00 [DBG] The request path / does not match a supported file type
+2025-05-15 00:21:06.721 +02:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-05-15 00:21:06.724 +02:00 [DBG] Endpoint 'AccountController.Login (logika2025)' with route pattern '{controller=Account}/{action=Login}/{id?}' is valid for the request path '/'
+2025-05-15 00:21:06.725 +02:00 [DBG] Request matched endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:21:06.733 +02:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-05-15 00:21:06.735 +02:00 [INF] Executing endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:21:06.747 +02:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (logika2025).
+2025-05-15 00:21:06.747 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-15 00:21:06.747 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-15 00:21:06.747 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-05-15 00:21:06.747 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-15 00:21:06.747 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-15 00:21:06.748 +02:00 [DBG] Executing controller factory for controller AccountController (logika2025)
+2025-05-15 00:21:06.750 +02:00 [DBG] Executed controller factory for controller AccountController (logika2025)
+2025-05-15 00:21:06.752 +02:00 [DBG] View lookup cache miss for view 'Login' in controller 'Account'.
+2025-05-15 00:21:06.756 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-15 00:21:06.759 +02:00 [DBG] The view path '/Views/Account/Login.cshtml' was found in 4.1801ms.
+2025-05-15 00:21:06.788 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:21:06.793 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in  and 
+2025-05-15 00:21:06.793 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /
+2025-05-15 00:21:06.797 +02:00 [DBG] A new antiforgery cookie token was created.
+2025-05-15 00:21:06.810 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:21:06.812 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Register and 
+2025-05-15 00:21:06.812 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Register
+2025-05-15 00:21:06.812 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:21:06.812 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/ForgotPassword and 
+2025-05-15 00:21:06.812 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/ForgotPassword
+2025-05-15 00:21:06.813 +02:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Account'.
+2025-05-15 00:21:06.825 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:21:06.825 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-05-15 00:21:06.825 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Index
+2025-05-15 00:21:06.826 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:21:06.826 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-05-15 00:21:06.826 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-05-15 00:21:06.913 +02:00 [INF] Executed ViewResult - view Login executed in 161.7929ms.
+2025-05-15 00:21:06.917 +02:00 [INF] Executed action AccountController.Login (logika2025) in 169.704ms
+2025-05-15 00:21:06.918 +02:00 [INF] Executed endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:21:06.962 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-05-15 00:21:06.981 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-05-15 00:21:06.993 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - -
+2025-05-15 00:21:06.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 352.1730ms
+2025-05-15 00:21:06.997 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 3.8737ms
+2025-05-15 00:21:07.257 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7125/_vs/browserLink - -
+2025-05-15 00:21:07.303 +02:00 [DBG] Connection id "0HNCJ6MF46N9V" accepted.
+2025-05-15 00:21:07.303 +02:00 [DBG] Connection id "0HNCJ6MF46N9V" started.
+2025-05-15 00:21:07.308 +02:00 [DBG] Connection 0HNCJ6MF46N9V established using the following protocol: "Tls13"
+2025-05-15 00:21:07.352 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2025-05-15 00:21:07.354 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7125/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 96.9306ms
+2025-05-15 00:21:07.368 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Admin\source\repos\logika2025\logika2025\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2025-05-15 00:21:07.368 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 15.9077ms
+2025-05-15 00:21:07.368 +02:00 [DBG] Connection id "0HNCJ6MF46N9V" disconnecting.
+2025-05-15 00:21:07.374 +02:00 [DBG] Connection id "0HNCJ6MF46N9V" stopped.
+2025-05-15 00:21:07.374 +02:00 [DBG] Connection id "0HNCJ6MF46N9V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:21:10.283 +02:00 [DBG] Connection id "0HNCJ6MF46N9U" received FIN.
+2025-05-15 00:21:10.284 +02:00 [DBG] Connection id "0HNCJ6MF46N9U" is closed. The last processed stream ID was 5.
+2025-05-15 00:21:10.284 +02:00 [DBG] Connection id "0HNCJ6MF46N9U" sending FIN because: "The client closed the connection."
+2025-05-15 00:21:10.285 +02:00 [DBG] Connection id "0HNCJ6MF46N9U" stopped.
+2025-05-15 00:21:15.448 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2025-05-15 00:21:15.448 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2025-05-15 00:21:15.448 +02:00 [DBG] Connection id "0HNCJ6MF46N9S" stopped.
+2025-05-15 00:21:15.448 +02:00 [DBG] Connection id "0HNCJ6MF46N9T" stopped.
+2025-05-15 00:21:15.448 +02:00 [DBG] Connection id "0HNCJ6MF46N9T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:21:15.448 +02:00 [DBG] Connection id "0HNCJ6MF46N9S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:24:11.185 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-15 00:24:11.609 +02:00 [DBG] Entity Framework Core 7.0.20 initialized 'TestmainDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.20' with options: None
+2025-05-15 00:24:11.612 +02:00 [DBG] Creating DbConnection.
+2025-05-15 00:24:11.632 +02:00 [DBG] Created DbConnection. (17ms).
+2025-05-15 00:24:11.635 +02:00 [DBG] Migrating using database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.638 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.761 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.765 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-15 00:24:11.770 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-05-15 00:24:11.771 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-05-15 00:24:11.775 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:24:11.788 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:24:11.789 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.794 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (1ms).
+2025-05-15 00:24:11.797 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-15 00:24:11.797 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:24:11.797 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:24:11.797 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.797 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.797 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:24:11.807 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:24:11.807 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.807 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:24:11.808 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.808 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.808 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-15 00:24:11.808 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-15 00:24:11.808 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-15 00:24:11.808 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:24:11.809 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-15 00:24:11.809 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.809 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:24:11.809 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-15 00:24:11.809 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:24:11.809 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-15 00:24:11.809 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.809 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.809 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:24:11.809 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-15 00:24:11.809 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.809 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:24:11.820 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-15 00:24:11.820 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:24:11.820 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:24:11.820 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.820 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.821 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-15 00:24:11.822 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-15 00:24:11.823 +02:00 [DBG] Closing data reader to 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.824 +02:00 [DBG] A data reader for 'TestmainDb' on server 'localhost,1433' is being disposed after spending 0ms reading results.
+2025-05-15 00:24:11.824 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.824 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:24:11.832 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-15 00:24:11.857 +02:00 [DBG] Compiling query expression: 
+'DbSet<Pytania>()
+    .Any()'
+2025-05-15 00:24:11.950 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Pytanie AS p)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    logika2025.Models.TestmainDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-05-15 00:24:11.967 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-15 00:24:11.967 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:24:11.967 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-15 00:24:11.967 +02:00 [DBG] Opening connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.967 +02:00 [DBG] Opened connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.967 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Pytanie] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-15 00:24:11.972 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Pytanie] AS [p]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-15 00:24:11.973 +02:00 [DBG] Closing data reader to 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.973 +02:00 [DBG] A data reader for 'TestmainDb' on server 'localhost,1433' is being disposed after spending 0ms reading results.
+2025-05-15 00:24:11.973 +02:00 [DBG] Closing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.973 +02:00 [DBG] Closed connection to database 'TestmainDb' on server 'localhost,1433' (0ms).
+2025-05-15 00:24:11.974 +02:00 [DBG] 'TestmainDbContext' disposed.
+2025-05-15 00:24:11.974 +02:00 [DBG] Disposing connection to database 'TestmainDb' on server 'localhost,1433'.
+2025-05-15 00:24:11.975 +02:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-15 00:24:11.990 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-15 00:24:12.012 +02:00 [DBG] Hosting starting
+2025-05-15 00:24:12.017 +02:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-15 00:24:12.018 +02:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-3742381f-beef-4107-b413-4ee73009bb6a.xml'.
+2025-05-15 00:24:12.019 +02:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-b0f5aae8-e779-48f7-853c-d83d15ab91b4.xml'.
+2025-05-15 00:24:12.022 +02:00 [DBG] Found key {3742381f-beef-4107-b413-4ee73009bb6a}.
+2025-05-15 00:24:12.024 +02:00 [DBG] Found key {b0f5aae8-e779-48f7-853c-d83d15ab91b4}.
+2025-05-15 00:24:12.028 +02:00 [DBG] Considering key {3742381f-beef-4107-b413-4ee73009bb6a} with expiration date 2025-06-23 19:18:58Z as default key.
+2025-05-15 00:24:12.028 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-15 00:24:12.029 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-05-15 00:24:12.029 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-05-15 00:24:12.030 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-05-15 00:24:12.031 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-05-15 00:24:12.032 +02:00 [DBG] Using key {3742381f-beef-4107-b413-4ee73009bb6a} as the default key.
+2025-05-15 00:24:12.032 +02:00 [DBG] Key ring with default key {3742381f-beef-4107-b413-4ee73009bb6a} was loaded during application startup.
+2025-05-15 00:24:12.059 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24A6B538250A1988F95E539551797B85416F05B6)
+2025-05-15 00:24:12.078 +02:00 [INF] Now listening on: https://localhost:7125
+2025-05-15 00:24:12.078 +02:00 [INF] Now listening on: http://localhost:5018
+2025-05-15 00:24:12.078 +02:00 [DBG] Loaded hosting startup assembly logika2025
+2025-05-15 00:24:12.079 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-15 00:24:12.079 +02:00 [INF] Hosting environment: Development
+2025-05-15 00:24:12.079 +02:00 [INF] Content root path: C:\Users\Admin\source\repos\logika2025\logika2025\
+2025-05-15 00:24:12.079 +02:00 [DBG] Hosting started
+2025-05-15 00:24:42.116 +02:00 [DBG] Connection id "0HNCJ6OFMNR9Q" received FIN.
+2025-05-15 00:24:42.124 +02:00 [DBG] Connection id "0HNCJ6OFMNR9Q" accepted.
+2025-05-15 00:24:42.124 +02:00 [DBG] Connection id "0HNCJ6OFMNR9Q" started.
+2025-05-15 00:24:42.137 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-15 00:24:42.168 +02:00 [DBG] Connection id "0HNCJ6OFMNR9Q" stopped.
+2025-05-15 00:24:42.171 +02:00 [DBG] Connection id "0HNCJ6OFMNR9Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:24:43.660 +02:00 [DBG] Connection id "0HNCJ6OFMNR9R" accepted.
+2025-05-15 00:24:43.661 +02:00 [DBG] Connection id "0HNCJ6OFMNR9R" started.
+2025-05-15 00:24:43.698 +02:00 [DBG] Connection 0HNCJ6OFMNR9R established using the following protocol: "Tls13"
+2025-05-15 00:24:43.762 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2025-05-15 00:24:43.765 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-15 00:24:43.773 +02:00 [DBG] The request path / does not match a supported file type
+2025-05-15 00:24:43.811 +02:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-05-15 00:24:43.816 +02:00 [DBG] Endpoint 'AccountController.Login (logika2025)' with route pattern '{controller=Account}/{action=Login}/{id?}' is valid for the request path '/'
+2025-05-15 00:24:43.816 +02:00 [DBG] Request matched endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:24:43.826 +02:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-05-15 00:24:43.828 +02:00 [INF] Executing endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:24:43.842 +02:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (logika2025).
+2025-05-15 00:24:43.843 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-15 00:24:43.843 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-15 00:24:43.843 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-05-15 00:24:43.843 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-15 00:24:43.843 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-15 00:24:43.844 +02:00 [DBG] Executing controller factory for controller AccountController (logika2025)
+2025-05-15 00:24:43.845 +02:00 [DBG] Executed controller factory for controller AccountController (logika2025)
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/ForgotPassword.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/ResetPassword.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Error404.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/OpisTestu.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Pytanko.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Tabela.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Test.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Testmain.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Wynik.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Zadania_r.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-05-15 00:24:43.849 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_Layout.cshtml'.
+2025-05-15 00:24:43.850 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-05-15 00:24:43.850 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-05-15 00:24:43.850 +02:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-05-15 00:24:43.855 +02:00 [DBG] View lookup cache miss for view 'Login' in controller 'Account'.
+2025-05-15 00:24:43.861 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-15 00:24:43.866 +02:00 [DBG] The view path '/Views/Account/Login.cshtml' was found in 5.9125ms.
+2025-05-15 00:24:43.896 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:43.902 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in  and 
+2025-05-15 00:24:43.903 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /
+2025-05-15 00:24:43.907 +02:00 [DBG] A new antiforgery cookie token was created.
+2025-05-15 00:24:43.927 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:43.929 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Register and 
+2025-05-15 00:24:43.929 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Register
+2025-05-15 00:24:43.930 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:43.930 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/ForgotPassword and 
+2025-05-15 00:24:43.930 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/ForgotPassword
+2025-05-15 00:24:43.931 +02:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Account'.
+2025-05-15 00:24:43.952 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:43.952 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-05-15 00:24:43.952 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Index
+2025-05-15 00:24:43.953 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:43.953 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-05-15 00:24:43.953 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-05-15 00:24:43.967 +02:00 [INF] Executed ViewResult - view Login executed in 112.5545ms.
+2025-05-15 00:24:43.968 +02:00 [INF] Executed action AccountController.Login (logika2025) in 124.2269ms
+2025-05-15 00:24:43.968 +02:00 [INF] Executed endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:24:43.976 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 217.9428ms
+2025-05-15 00:24:44.592 +02:00 [DBG] Connection id "0HNCJ6OFMNR9S" accepted.
+2025-05-15 00:24:44.598 +02:00 [DBG] Connection id "0HNCJ6OFMNR9S" started.
+2025-05-15 00:24:44.634 +02:00 [DBG] Connection 0HNCJ6OFMNR9S established using the following protocol: "Tls13"
+2025-05-15 00:24:44.650 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2025-05-15 00:24:44.681 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Admin\source\repos\logika2025\logika2025\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2025-05-15 00:24:44.686 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 36.3218ms
+2025-05-15 00:24:44.687 +02:00 [DBG] Connection id "0HNCJ6OFMNR9S" disconnecting.
+2025-05-15 00:24:44.689 +02:00 [DBG] Connection id "0HNCJ6OFMNR9S" stopped.
+2025-05-15 00:24:44.689 +02:00 [DBG] Connection id "0HNCJ6OFMNR9S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:24:46.751 +02:00 [DBG] Connection id "0HNCJ6OFMNR9R" received FIN.
+2025-05-15 00:24:46.752 +02:00 [DBG] Connection id "0HNCJ6OFMNR9R" is closed. The last processed stream ID was 1.
+2025-05-15 00:24:46.753 +02:00 [DBG] Connection id "0HNCJ6OFMNR9R" sending FIN because: "The client closed the connection."
+2025-05-15 00:24:46.753 +02:00 [DBG] Connection id "0HNCJ6OFMNR9R" stopped.
+2025-05-15 00:24:56.878 +02:00 [DBG] Connection id "0HNCJ6OFMNR9T" accepted.
+2025-05-15 00:24:56.878 +02:00 [DBG] Connection id "0HNCJ6OFMNR9T" started.
+2025-05-15 00:24:56.879 +02:00 [DBG] Connection id "0HNCJ6OFMNR9T" received FIN.
+2025-05-15 00:24:56.879 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-05-15 00:24:56.879 +02:00 [DBG] Connection id "0HNCJ6OFMNR9T" stopped.
+2025-05-15 00:24:56.880 +02:00 [DBG] Connection id "0HNCJ6OFMNR9T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:24:57.984 +02:00 [DBG] Connection id "0HNCJ6OFMNR9U" accepted.
+2025-05-15 00:24:57.984 +02:00 [DBG] Connection id "0HNCJ6OFMNR9U" started.
+2025-05-15 00:24:57.994 +02:00 [DBG] Connection 0HNCJ6OFMNR9U established using the following protocol: "Tls13"
+2025-05-15 00:24:57.995 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7125/ - -
+2025-05-15 00:24:57.995 +02:00 [DBG] The request path / does not match a supported file type
+2025-05-15 00:24:57.996 +02:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-05-15 00:24:57.996 +02:00 [DBG] Endpoint 'AccountController.Login (logika2025)' with route pattern '{controller=Account}/{action=Login}/{id?}' is valid for the request path '/'
+2025-05-15 00:24:57.996 +02:00 [DBG] Request matched endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:24:57.996 +02:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2025-05-15 00:24:57.996 +02:00 [INF] Executing endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:24:57.996 +02:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller AccountController (logika2025).
+2025-05-15 00:24:57.996 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-15 00:24:57.996 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-15 00:24:57.996 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-05-15 00:24:57.996 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-15 00:24:57.996 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-05-15 00:24:57.997 +02:00 [DBG] Executing controller factory for controller AccountController (logika2025)
+2025-05-15 00:24:57.998 +02:00 [DBG] Executed controller factory for controller AccountController (logika2025)
+2025-05-15 00:24:57.998 +02:00 [DBG] View lookup cache hit for view 'Login' in controller 'Account'.
+2025-05-15 00:24:57.998 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-15 00:24:57.998 +02:00 [DBG] The view path '/Views/Account/Login.cshtml' was found in 0.279ms.
+2025-05-15 00:24:58.000 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:58.000 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in  and 
+2025-05-15 00:24:58.000 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /
+2025-05-15 00:24:58.000 +02:00 [DBG] A new antiforgery cookie token was created.
+2025-05-15 00:24:58.001 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:58.001 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Register and 
+2025-05-15 00:24:58.001 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Register
+2025-05-15 00:24:58.001 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:58.001 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/ForgotPassword and 
+2025-05-15 00:24:58.001 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/ForgotPassword
+2025-05-15 00:24:58.001 +02:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Account'.
+2025-05-15 00:24:58.002 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:58.002 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Index and 
+2025-05-15 00:24:58.002 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Index
+2025-05-15 00:24:58.002 +02:00 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2025-05-15 00:24:58.002 +02:00 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2025-05-15 00:24:58.002 +02:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Privacy
+2025-05-15 00:24:58.003 +02:00 [INF] Executed ViewResult - view Login executed in 4.8088ms.
+2025-05-15 00:24:58.003 +02:00 [INF] Executed action AccountController.Login (logika2025) in 6.5884ms
+2025-05-15 00:24:58.003 +02:00 [INF] Executed endpoint 'AccountController.Login (logika2025)'
+2025-05-15 00:24:58.003 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7125/ - - - 200 - text/html;+charset=utf-8 8.1739ms
+2025-05-15 00:24:58.560 +02:00 [DBG] Connection id "0HNCJ6OFMNR9V" accepted.
+2025-05-15 00:24:58.560 +02:00 [DBG] Connection id "0HNCJ6OFMNR9V" started.
+2025-05-15 00:24:58.564 +02:00 [DBG] Connection 0HNCJ6OFMNR9V established using the following protocol: "Tls13"
+2025-05-15 00:24:58.565 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7125/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2025-05-15 00:24:58.567 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\Admin\source\repos\logika2025\logika2025\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2025-05-15 00:24:58.567 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7125/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 327261 text/plain 2.3993ms
+2025-05-15 00:24:58.567 +02:00 [DBG] Connection id "0HNCJ6OFMNR9V" disconnecting.
+2025-05-15 00:24:58.567 +02:00 [DBG] Connection id "0HNCJ6OFMNR9V" stopped.
+2025-05-15 00:24:58.567 +02:00 [DBG] Connection id "0HNCJ6OFMNR9V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-15 00:25:01.064 +02:00 [DBG] Connection id "0HNCJ6OFMNR9U" received FIN.
+2025-05-15 00:25:01.064 +02:00 [DBG] Connection id "0HNCJ6OFMNR9U" is closed. The last processed stream ID was 1.
+2025-05-15 00:25:01.064 +02:00 [DBG] Connection id "0HNCJ6OFMNR9U" sending FIN because: "The client closed the connection."
+2025-05-15 00:25:01.065 +02:00 [DBG] Connection id "0HNCJ6OFMNR9U" stopped.

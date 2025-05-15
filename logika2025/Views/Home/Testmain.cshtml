@@ -1,0 +1,12 @@
+﻿@model logika2025.Models.Pytania
+
+<div class="text-center">
+    <h1>@Model.Tresc</h1>
+</div>
+
+<form asp-action="SprawdzOdpowiedz" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <label>Twoja odpowiedź:</label>
+    <input type="number" name="odpowiedz" class="form-control" placeholder="Wpisz odpowiedź" />
+    <button class="btn btn-primary mt-4" type="submit">OK</button>
+</form>
